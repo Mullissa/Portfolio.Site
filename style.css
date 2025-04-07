@@ -814,7 +814,118 @@ svg:hover {
     border-color: #000000;
   }
 
+/* reume styles */
+#resume-h1 {
+    text-shadow: 0px 4px 4px #000000b2;
+    -webkit-text-stroke: 3px #000000;
+    font-family: var(--heading-0-pixel-font-family);
+    font-weight: var(--heading-0-pixel-font-weight);
+    color: var(--collection-1-secondary);
+    font-size: var(--heading-0-pixel-font-size);
+    text-align: center;
+    letter-spacing: var(--heading-0-pixel-letter-spacing);
+    line-height: var(--heading-0-pixel-line-height);
+    white-space: nowrap;
+    font-style: var(--heading-0-pixel-font-style);
+}
 
+#certifications {
+    text-shadow: 0px 4px 4px #000000b2;
+    -webkit-text-stroke: 1px #000000;
+    font-family: var(--heading-1-pixel-font-family);
+    font-weight: var(--heading-1-pixel-font-weight);
+    color: var(--collection-1-secondary);
+    font-size: var(--heading-1-pixel-font-size);
+    letter-spacing: var(--heading-1-pixel-letter-spacing);
+    line-height: var(--heading-1-pixel-line-height);
+    white-space: nowrap;
+    font-style: var(--heading-1-pixel-font-style);
+}
+
+#profiles {
+    text-shadow: 0px 4px 4px #000000b2;
+    -webkit-text-stroke: 1px #000000;
+    font-family: var(--heading-1-pixel-font-family);
+    font-weight: var(--heading-1-pixel-font-weight);
+    color: var(--collection-1-secondary);
+    font-size: var(--heading-1-pixel-font-size);
+    letter-spacing: var(--heading-1-pixel-letter-spacing);
+    line-height: var(--heading-1-pixel-line-height);
+    white-space: nowrap;
+    font-style: var(--heading-1-pixel-font-style);
+}
+
+a {
+    text-shadow: 0px 4px 4px #000000b2;
+    -webkit-text-stroke: 1px #000000;
+    font-family: var(--heading-1-pixel-font-family);
+    font-weight: 500;
+    color: var(--collection-1-accent1);
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: var(--heading-1-pixel-letter-spacing);
+    line-height: var(--heading-1-pixel-line-height);
+    white-space: nowrap;
+    font-style: var(--heading-1-pixel-font-style);
+}
+
+#button-dl {
+
+}
+
+#work {
+    text-shadow: 0px 4px 4px #000000b2;
+    -webkit-text-stroke: 1px #000000;
+    font-family: var(--heading-1-pixel-font-family);
+    font-weight: var(--heading-1-pixel-font-weight);
+    color: var(--collection-1-secondary);
+    font-size: var(--heading-1-pixel-font-size);
+    letter-spacing: var(--heading-1-pixel-letter-spacing);
+    line-height: var(--heading-1-pixel-line-height);
+    white-space: nowrap;
+    font-style: var(--heading-1-pixel-font-style);
+}
+
+#education {
+    text-shadow: 0px 4px 4px #000000b2;
+    -webkit-text-stroke: 1px #000000;
+    font-family: var(--heading-1-pixel-font-family);
+    font-weight: var(--heading-1-pixel-font-weight);
+    color: var(--collection-1-secondary);
+    font-size: var(--heading-1-pixel-font-size);
+    letter-spacing: var(--heading-1-pixel-letter-spacing);
+    line-height: var(--heading-1-pixel-line-height);
+    white-space: nowrap;
+    font-style: var(--heading-1-pixel-font-style);
+}
+
+h4 {
+    font-family: var(--heading-3-dosis-font-family);
+    font-weight: 700;
+    color: var(--collection-1-accent1);
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+h5 {
+    font-family: var(--heading-3-dosis-font-family);
+    font-weight: 500;
+    color: var(--Secondary-hue-1);
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+p {
+    -webkit-text-stroke: .5px #000000;
+    font-family: var(--heading-3-dosis-font-family);
+    font-weight: 700;
+    color: var(--collection-1-neutral-hue-4);
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+}
   
 /*Footer*/
 
@@ -926,46 +1037,4 @@ svg:hover {
 }
 
 
-/*Media Query home page*/
 
-@media (max-width: 1200px) {
-    .icon-size {
-        width: 60px;
-        height: 60px;
-    }
-    .svg-container p {
-        font-size: 32px
-    }
-    #contact-section svg {
-        width: 60px;
-        height: 60px;
-    }
-}
-
-@media (max-width: 768px) {
-    .icon-size {
-        width: 50px;
-        height: 50px;
-    }
-    .svg-container p{
-        font-size: 16px;
-    }
-    #contact-section svg {
-        width: 60px;
-        height: 60px;
-    }
-}
-
-@media (max-width: 576px) {
-    .icon-size {
-        width: 40px;
-        height: 40px;
-    }
-    .svg-container p {
-        font-size: 18px;
-    }
-    #contact-section svg {
-        width: 50px;
-        height: 50px;
-    }
-}
