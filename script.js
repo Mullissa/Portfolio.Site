@@ -9,3 +9,12 @@ document.addEventListener("DOMContentLoaded", function () {
     interval: 2000,
     touch: false
   });
+
+  const emailButton = document.querySelector('#emailButton');
+
+  emailButton.addEventListener('click', function () {
+    const email = 'your-email@example.com';
+    const subject = 'Hello!';
+    const body = 'I would like to get in touch with you.';
+    window.location.href = `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+  });

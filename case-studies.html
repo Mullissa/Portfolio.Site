@@ -1,71 +1,165 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width">  
-        <meta name="milestone" content="Portfolio">
-        <title>Mullissa Caroline</title> 
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-        <link href="global.css" rel="stylesheet" type="text/css" />
-        <link href="styleguide.css" rel="stylesheet" type="text/css" />
-        <link href="style.css" rel="stylesheet" type="text/css" />
-      </head>
-<body>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="milestone" content="Portfolio" />
+    <title>Mullissa Caroline</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Pixelify+Sans:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link href="global.css" rel="stylesheet" type="text/css" />
+    <link href="styleguide.css" rel="stylesheet" type="text/css" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#"><img src="img/logo.png" alt="Logo" style="height: 60px;"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="about.html">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="resume.html">Resume</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="case-studies.html">Case Studies</a>
-              </li>
-            </ul> 
-          </div>
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><img src="img/logo.png" alt="Logo" style="height: 60px"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="resume.html">Resume</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="case-studies.html">Case Studies</a>
+            </li>
+          </ul>
         </div>
-      </nav>
-    <header>
-        <h1>Case Studies</h1>
-        
-    </header>
-    <main>
-        <section>
-            <h2>Our Work</h2>
-            <p>Explore our case studies to see how we've helped our clients achieve their goals.</p>
-        </section>
-        <section>
-            <article>
-                <h3>Case Study 1</h3>
-                <p>Description of the first case study.</p>
-                <a href="case-study-1.html">Read More</a>
-            </article>
-            <article>
-                <h3>Case Study 2</h3>
-                <p>Description of the second case study.</p>
-                <a href="case-study-2.html">Read More</a>
-            </article>
-        </section>
+      </div>
+    </nav>
+    <main class="container-fluid mb-5" style="margin-top: 20px; gap: 20px; display: flex; flex-direction: column; align-items: center;">
+      <div class="case-study-card row align-items-center mb-5" style="border: 2px solid #000; padding: 15px; border-radius: 10px; max-width: 900px; width: 100%;">
+        <div class="col-md-8 order-2 order-md-1">
+          <h4 class="case-study-subtitle text-truncate fs-5 mb-5">
+            Portfolio Website
+          </h4>
+          <p class="text-wrap fs-6 mb-4">
+            • Design & Development Portfolio: Showcases skills in a clean, responsive website.<br>
+            • Key Content: Includes resume, case studies, and contact information.<br>
+            • Technical Foundation: Built with HTML, CSS, and JavaScript for optimal user experience across devices.<br>
+          </p>
+        </div>
+        <div class="col-md-4 text-center order-1 order-md-2">
+          <img
+            src="img/logo.png"
+            alt="Serenity Cove Logo"
+            class="img-fluid rounded"
+            style="max-width: 100%; height: 200px; width: 300px;"
+          />
+            <div style="display: flex; justify-content: start; margin-top: 10px; width: 150px; height: 100px;">
+            <button class="btn mt-3" style="width: 70px; height: 70px;">
+              <img src="img/bolt.png" alt="Case Study" style="width: 100px; height: 50px;" />
+            </button>
+            </div>
+        </div>
+      </div>
+      <div class="case-study-card row align-items-center mb-5" style="border: 2px solid #000; padding: 15px; border-radius: 10px; max-width: 900px; width: 100%;">
+        <div class="col-md-8 order-2 order-md-1">
+          <h4 class="case-study-subtitle text-truncate fs-5 mb-5">
+            Foxiary Studios
+          </h4>
+          <p class="text-wrap fs-6 mb-5">
+            • Designed in Figma, built with HTML structure and styled with CSS.<br>
+            • Offers user-friendly browsing with HTML navigation and CSS layout, based on Figma design principles.<br>
+            • Engaging e-commerce experience created with HTML and CSS, developed from Figma prototypes.<br>
+          </p>
+        </div>
+        <div class="col-md-4 text-center order-1 order-md-2">
+          <img
+            src="img/project2.png"
+            alt="Foxiary Studios Logo"
+            class="img-fluid rounded"
+            style="max-width: 100%; height: auto; width: 300px;"
+          />
+          <div style="display: flex; justify-content: start; margin-top: 10px; width: 150px; height: 100px;">
+            <button class="btn mt-3" style="width: 70px; height: 70px;">
+              <img src="img/bolt.png" alt="Case Study" style="width: 100px; height: 50px;" />
+            </button>
+            </div>
+        </div>
+      </div>
+      <div class="case-study-card row align-items-center mb-5" style="border: 2px solid #000; padding: 15px; border-radius: 10px; max-width: 900px; width: 100%;">
+        <div class="col-md-8 order-2 order-md-1">
+          <h4 class="case-study-subtitle text-truncate fs-5 mb-5">
+            Serenity Cove
+          </h4>
+          <p class="text-wrap fs-6 mb-5">
+            • Visually enhanced website for tranquility with CSS.<br>
+            • Improved navigation and contact forms using HTML and CSS.<br>
+            • Ensured consistent, accessible experience on all devices.<br>
+          </p>
+        </div>
+        <div class="col-md-4 text-center order-1 order-md-2">
+          <img
+            src="img/project1.png"
+            alt="Serenity Cove"
+            class="img-fluid rounded"
+            style="max-width: 100%; height: auto; width: 300px;" 
+          />
+          <div style="display: flex; justify-content: start; margin-top: 10px; width: 150px; height: 100px;">
+            <button class="btn mt-3" style="width: 70px; height: 70px;">
+              <img src="img/bolt.png" alt="Case Study" style="width: 100px; height: 50px;" />
+            </button>
+            </div>
+        </div>
+      </div>
     </main>
-    <footer>
-        <p>&copy; 2023 Portfolio Site. All rights reserved.</p>
-    
-    <script src="script.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-</footer>
-</body>
+
+    <footer class="mt-4">
+      <div class="footer-icons row border border-dark rounded p-3">
+        <!-- Footer Image Column -->
+        <div class="col-12 col-md-6 d-flex justify-content-center justify-content-md-start align-items-center mb-3 mb-md-0">
+          <img src="img/footer_hearts.png" alt="Footer Image" class="img-fluid w-25 w-md-50" />
+        </div>
+        <!-- Icons Column -->
+        <div class="col-12 col-md-6 d-flex justify-content-center justify-content-md-end align-items-center">
+          <!-- Facebook Section -->
+          <img src="img/footer_Facebook.png" alt="Facebook Icon" class="me-2 img-fluid w-15 w-md-25" />
+          <!-- LinkedIn Section -->
+          <img src="img/footer_LinkedIn.png" alt="LinkedIn Icon" class="me-2 img-fluid w-15 w-md-25" />
+          <!-- Email Section -->
+          <img src="img/footer_Email.png" alt="Email Icon" class="img-fluid w-15 w-md-25" />
+        </div>
+      </div>
+        <script>
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+          crossorigin="anonymous"
+        </script>
+    </footer>
+    </main>
+  </body>
 </html>

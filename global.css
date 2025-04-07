@@ -6,7 +6,9 @@
 html,
 body {
   margin: 0px;
-  height: 100%;
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
 }
 /* a blue color as a generic focus style */
 button:focus-visible {
