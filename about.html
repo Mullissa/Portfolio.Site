@@ -2,7 +2,6 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">  
     <meta name="milestone" content="Portfolio">
     <title>Mullissa Caroline</title> 
@@ -11,6 +10,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="global.css" rel="stylesheet" type="text/css" />
+    <link href="styleguide.css" rel="stylesheet" type="text/css" />
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
@@ -39,66 +40,73 @@
         </div>
       </nav>
 
-<!-- Hero section -->
-    <main>
-        <div class="about-section">
-            <div class="hero-section">
-                <img class="IMG" src="img/me.jpeg" alt="An image of me."/>
-                <div class="overlap">
-                  <p class="i-m-mullissa">
-                    I&#39;m Mullissa Caroline, a Denver-based UX Designer, Digital Artist, Illustrator, and Front-End Web
-                    Developer. By day, I sculpt seamless user experiences and craft captivating visuals that leave lasting
-                    impressions. Off-duty, I unleash my imagination, painting digital canvases and giving life to whimsical
-                    characters. And when the workday ends, I retreat to my sanctuary with Peaches and Lola, my adorable bunnies,
-                    who bring joy and inspiration to every project. Feel free to explore my case studies and resume to learn more
-                    about me.
-                  </p>
-                  <div class="heading"><div class="text-wrapper">Hello again!</div></div>
-                </div>
-                <div class="square-large-resume">
-                  <div class="overlap-group-wrapper">
-                    <div class="overlap-group">
-                      <div class="button"></div>
-                      <img class="resume" src="img/resume.svg" />
-                      <div class="div">Resume</div>
-                    </div>
-                  </div>
-                </div>
-                <div class="square-large-case">
-                  <div class="overlap-group-wrapper">
-                    <div class="overlap-group-2">
-                      <div class="button-2"></div>
-                      <div class="button-3"></div>
-                      <img class="case-study" src="img/case-study.svg" />
-                      <div class="text-wrapper-2">Case Study</div>
-                    </div>
-                  </div>
-                </div>
-                <div class="overlap-2">
-                  <div class="group">
-                    <div class="overlap-3">
-                      <div class="overlap-4">
-                        <div class="overlap-5">
-                          <img class="hearts" src="img/hearts2.png" />
-                          <div class="text-wrapper-3">Inventory</div>
-                          <img class="candy" src="img/candy.png" />
-                          <img class="sushi" src="img/sushi.png" />
-                          <img class="img" src="img/sushi2.png" />
+      <main>
+        <section id="about" class="container px-4 text-center my-5 ms-lg-auto">
+            <div class="container text-center">
+                <div class="hero-section row gx-lg-5">
+                    <div class="col-12 col-md-4">
+                        <div class="overlap-2">
+                            <div class="group">
+                                <div class="overlap-3">
+                                    <div class="overlap-4">
+                                        <div class="overlap-5">
+                                            <img class="hearts" src="img/hearts2.png" alt="" />
+                                            <div class="text-wrapper-3">Inventory</div>
+                                            <img class="candy" src="img/candy.png" alt="" />
+                                            <img class="sushi" src="img/sushi.png" alt="" />
+                                            <img class="img" src="img/sushi2.png" alt="" />
+                                        </div>
+                                        <div class="text-wrapper-4">Health</div>
+                                        <div class="text-wrapper-5">Level</div>
+                                    </div>
+                                    <div class="text-wrapper-6">37</div>
+                                </div>
+                                <div class="text-wrapper-7">Stats</div>
+                            </div>
+                            <div class="rectangle"></div>
                         </div>
-                        <div class="text-wrapper-4">Health</div>
-                        <div class="text-wrapper-5">Level</div>
-                      </div>
-                      <div class="text-wrapper-6">36</div>
                     </div>
-                    <div class="text-wrapper-7">Stats</div>
-                  </div>
-                  <div class="rectangle"></div>
+                    <div class="col-12 col-md-4 mt-4">
+                        <img class="IMG img-fluid" src="img/me.jpeg" alt="An image of me." />
+                    </div>
+                    <div class="col-12 col-md-4 mt-4">
+                        <div class="overlap">
+                            <div class="heading">
+                                <div class="text-wrapper text-center text-md-start">Hello again!</div>
+                            </div>
+                            <p class="i-m-mullissa text-center text-md-start mt-4">
+                                Front-end and UX design? That's where my superpowers shine! I craft websites that are not
+                                gorgeous but also a joy to use. As a digital artist and CEO of a digital agency, I'm passionate
+                                about creating seamless online experiences. Peep my work and let's connect!
+                            </p>
+                        </div>
+                        <div class="d-flex flex-wrap mt-3 justify-content-center justify-content-md-start align-items-center">
+                            <div class="square-large-resume me-2 mb-2 mt-4">
+                                <div class="overlap-group-wrapper h-100 d-flex align-items-center justify-content-center">
+                                    <div class="overlap-group position-relative h-100 d-flex align-items-center justify-content-center">
+                                        <div class="button"></div>
+                                        <img class="resume position-absolute top-0 start-0" src="img/resume.svg" alt="" />
+                                        <div class="div position-absolute top-0 start-50 translate-middle-x">Resume</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="square-large-case me-2 mb-2 mt-4">
+                                <div class="overlap-group-wrapper h-100 d-flex align-items-center justify-content-center">
+                                    <div class="overlap-group-2 position-relative h-100 d-flex align-items-center justify-content-center">
+                                        <div class="button-2"></div>
+                                        <div class="button-3"></div>
+                                        <img class="case-study position-absolute top-0 start-0" src="img/case-study.svg" alt="" />
+                                        <div class="text-wrapper-2 position-absolute top-0 start-50 translate-middle-x">Case Study</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
             </div>
-            
-<!-- Personal Projects Section -->
-      <section id="personal-projects" class="container my-5">
+        </section>
+          
+<section id="personal-projects" class="container my-5">
           <h2 class="personal-projects mb-4">Personal Projects</h2>
           <div class="row text-center">
             <div class="col-md-4">
@@ -119,10 +127,10 @@
     
 
     <!-- Footer -->
-
-    
+<footer>   
     <script src="script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</footer>
   </body>
 
 </html>
